@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Klonoa</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Story
+  * Template URL: https://bootstrapmade.com/story-bootstrap-blog-template/
+  * Updated: Aug 11 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <img class="sitename" src="assets/img/klonoa.png" alt="">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Ínicio</a></li>
+          <li><a href="#category-section">Jogos</a></li>
+          <li><a href="#latest-posts">Aparições</a></li>
+          <li><a href="blog-details.html">História</a></li>
+          <li><a href="author-profile.html">Wiki</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="github"><i class="bi bi-github"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Blog Hero Section -->
+    <section id="blog-hero" class="blog-hero section">
+
+      <div class="container-fluid p-0" data-aos="fade">
+
+        <div class="blog-hero-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 1000,
+              "effect": "fade",
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": 1,
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="blog-hero-item">
+                <img src="assets/img/blog/slide2.jpg" alt="Blog Hero Image" class="img-fluid">
+                <div class="blog-hero-content">                  
+                  <h1>Klonoa: uma franquia esquecida de jogos da Nanco</h1>
+
+                </div>
+              </div>
+            </div><!-- End slide item -->
+
+            <div class="swiper-slide">
+              <div class="blog-hero-item">
+                <img src="assets/img/blog/slide1.jpg" alt="Blog Hero Image" class="img-fluid">
+                <div class="blog-hero-content">
+                  <h1>Com continuações tão boas quanto o primeiro jogo</h1>
+                </div>
+              </div>
+            </div><!-- End slide item -->
+
+            <div class="swiper-slide">
+              <div class="blog-hero-item">
+                <img src="assets/img/blog/slide3.png" alt="Blog Hero Image" class="img-fluid">
+                <div class="blog-hero-content">
+                  <h1>Reflexões que vão além de poder da amizade</h1>
+                </div>
+              </div>
+            </div><!-- End slide item -->
+
+            <div class="swiper-slide">
+              <div class="blog-hero-item">
+                <img src="assets/img/blog/slide4.webp" alt="Blog Hero Image" class="img-fluid">
+                <div class="blog-hero-content">
+                  <h1>Que apesar de ter uma aparência infatil, te faz pensar</h1>
+                </div>
+              </div>
+            </div><!-- End slide item -->
+
+            <div class="swiper-slide">
+              <div class="blog-hero-item">
+                <img src="assets/img/blog/slide5.webp" alt="Blog Hero Image" class="img-fluid">
+                <div class="blog-hero-content">
+                  <h1>Mas também pode ser relaxante e divertido</h1>
+                </div>
+              </div>
+            </div><!-- End slide item -->
+
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Blog Hero Section -->
+
+    <!-- Featured Posts Section -->
+    <section id="featured-posts" class="featured-posts section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Conheça mais</span>
+        <h2>Conheça mais</h2>
+        <p>Veja mais sobre os jogos!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="blog-posts-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 2500
+              },
+              "slidesPerView": 1,
+              "spaceBetween": 40,
+              "centeredSlides": true,
+              "breakpoints": {
+                "768": {
+                  "slidesPerView": 1.5,
+                  "spaceBetween": 30
+                },
+                "1200": {
+                  "slidesPerView": 2.2,
+                  "spaceBetween": 40
+                }
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <article class="blog-card">
+                <div class="blog-image">
+                  <img src="assets/img/blog/klonoa1gameplay.gif" alt="Blog Image" loading="lazy">
+                  <div class="category-badge">Klonoa: Door to Phantomile</div>
+              </article>
+            </div><!-- End slide item -->
+
+            <div class="swiper-slide">
+              <article class="blog-card">
+                <div class="blog-image">
+                  <img src="assets/img/blog/klonoagameplay.gif" alt="Blog Image" loading="lazy">
+                  <div class="category-badge">Klonoa 2: Lunatea's Veil</div>
+                </div>
+              </article>
+            </div><!-- End slide item -->
+
+            <div class="swiper-slide">
+              <article class="blog-card">
+                <div class="blog-image">
+                  <img src="assets/img/blog/klonoaherosgameplay.gif" alt="Blog Image" loading="lazy">
+                  <div class="category-badge">Klonoa Heroes: Densetsu no Star Medal</div>
+                </div>
+              </article>
+            </div><!-- End slide item -->
+
+            <div class="swiper-slide">
+              <article class="blog-card">
+                <div class="blog-image">
+                  <img src="assets/img/blog/klonoanxcgameplay.gif" alt="Blog Image" loading="lazy">
+                  <div class="category-badge">Namco x Capcom</div>
+              </article>
+            </div><!-- End slide item -->
+
+            <div class="swiper-slide">
+              <article class="blog-card">
+                <div class="blog-image">
+                  <img src="assets/img/blog/klonoabvgameplay.gif" alt="Blog Image" loading="lazy">
+                  <div class="category-badge">Klonoa Beach Volleyball</div>
+              </article>
+            </div><!-- End slide item -->
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Posts Section -->
+
+    <!-- Category Section Section -->
+    <section id="category-section" class="category-section section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Jogos</span>
+        <h2>Jogos</h2>
+        <p>Jogos da franquia</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <!-- Grid Posts -->
+        <div class="posts-grid">
+          <div class="row gy-4">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <article class="grid-post">
+                <div class="post-img">
+                  <img src="assets/img/blog/klonoa1.jpg" alt="" class="img-fluid" loading="lazy">
+                  <div class="post-overlay">
+                    <span class="category-tag">Klonoa Door to phatomile</span>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h3 class="title">
+                    <a href="blog-details.html">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</a>
+                  </h3>
+                  <p class="excerpt">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <article class="grid-post">
+                <div class="post-img">
+                  <img src="assets/img/blog/klonoa2.jpg" alt="" class="img-fluid" loading="lazy">
+                  <div class="post-overlay">
+                    <span class="category-tag">Klonoa 2 lunatea's veil</span>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h3 class="title">
+                    <a href="blog-details.html">Magna aliqua ut enim ad minim veniam quis nostrud exercitation</a>
+                  </h3>
+                  <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <article class="grid-post">
+                <div class="post-img">
+                  <img src="assets/img/blog/klonoa4.jpg" alt="" class="img-fluid" loading="lazy">
+                  <div class="post-overlay">
+                    <span class="category-tag">Klonoa moonlight museum</span>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h3 class="title">
+                    <a href="blog-details.html">Ullamco laboris nisi ut aliquip ex ea commodo consequat</a>
+                  </h3>
+                  <p class="excerpt">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <article class="grid-post">
+                <div class="post-img">
+                  <img src="assets/img/blog/klonoa3.jpg" alt="" class="img-fluid" loading="lazy">
+                  <div class="post-overlay">
+                    <span class="category-tag">Klonoa: Empire of Dreams</span>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h3 class="title">
+                    <a href="blog-details.html">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</a>
+                  </h3>
+                  <p class="excerpt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <article class="grid-post">
+                <div class="post-img">
+                  <img src="assets/img/blog/klonoa5.jpg" alt="" class="img-fluid" loading="lazy">
+                  <div class="post-overlay">
+                    <span class="category-tag">Klonoa 2: Dream Champ Tournament</span>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h3 class="title">
+                    <a href="blog-details.html">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</a>
+                  </h3>
+                  <p class="excerpt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <article class="grid-post">
+                <div class="post-img">
+                  <img src="assets/img/blog/klonoa6.webp" alt="" class="img-fluid" loading="lazy">
+                  <div class="post-overlay">
+                    <span class="category-tag">Klonoa Heroes: Densetsu no Star Medal</span>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h3 class="title">
+                    <a href="blog-details.html">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</a>
+                  </h3>
+                  <p class="excerpt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Category Section Section -->
+
+    <!-- Latest Posts Section -->
+    <section id="latest-posts" class="latest-posts section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Aparições</span>
+        <h2>Aparições</h2>
+        <p>Participação do Klonoa em outros jogos</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-stretch">
+
+          <div class="col-lg-7" data-aos="zoom-in" data-aos-delay="150">
+            <h4>Mesmo sendo uma franquia d jogos desconhecida por muitos, Klonoa já apareceu em outros jogos, seja como personagem jogável ou como um easter egg para quem já conhece.</h4>
+          </div><!-- End Featured Post -->
+
+          <div class="col-lg-5">
+            <div class="row gy-4">
+              <div class="col-12" data-aos="fade-left" data-aos-delay="200">
+                <article class="compact-post h-100">
+                  <div class="thumb">
+                    <img src="assets/img/blog/aparicao.png" class="img-fluid" alt="Post thumbnail" loading="lazy">
+                  </div>
+                  <div class="content">                    
+                    <h4 class="title">Easter egg de klonoa em Tales of Symphonia</h4>
+                    <a href="author-profile.html#aparicoes" class="readmore"><span>Ver sobre</span><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </article>
+              </div><!-- End Compact Post -->
+
+              <div class="col-12" data-aos="fade-left" data-aos-delay="300">
+                <article class="compact-post h-100">
+                  <div class="thumb">
+                    <img src="assets/img/blog/aparicao2.jpg" class="img-fluid" alt="Post thumbnail" loading="lazy">
+                  </div>
+                  <div class="content">                    
+                    <h4 class="title">Klonoa como personagem jogável é Nanco vs Capcom</h4>
+                    <a href="author-profile.html#aparicoes" class="readmore"><span>Ver sobre</span><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </article>
+              </div><!-- End Compact Post -->
+            </div>
+          </div><!-- End Right Column -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Latest Posts Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="row gy-5">
+
+        <div class="col-lg-4">
+          <div class="footer-brand">
+            <a href="index.html" class="logo d-flex align-items-center mb-3">
+              <span class="sitename">Klonoa</span>
+            </a>
+            <p class="tagline">Innovating the digital landscape with elegant solutions and timeless design.</p>
+
+            <div class="social-links mt-4">
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="footer-cta">
+            <h5>Let's Connect</h5>
+            <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <img src="assets/img/gif.gif" alt="">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-bottom-content">
+              <p class="mb-0">© <strong>Story</strong>. All rights reserved.</p>
+              <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you've purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
